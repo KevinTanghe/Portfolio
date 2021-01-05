@@ -15779,26 +15779,67 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 #cv {
-  flex: 3;
   display: flex;
   flex-direction: column;
   align-items: center;
   background-color: #25242F;
+  overflow: auto;
+  z-index: 999;
+}
+
+.tailleCV {
+  width: 100%;
+}
+
+.infoCV {
+  color: white;
+  padding: 20px;
+  background-color: #20202a;
 }
 
 #photoKevin {
-  height: 180px;
-  width: 150px;
+  height: 120px;
+  width: 100px;
   border-radius: 50%;
   margin-top: 50px;
 }
 
-section {
-  display: flex;
+.hr {
+  width: 100%;
+  height: 1px;
+  background: #8c8c8e;
+  opacity: .3;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
-#home {
-  flex: 9;
+.progress {
+  height: 5px;
+}
+
+.progress-bar {
+  background-color: #fec135;
+  color: black;
+}
+
+.barrePourcen {
+  padding-right: 25px;
+}
+
+.boulePleine {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: #fec135;
+  margin-left: 20px;
+}
+
+.bouleVide {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: white;
+  margin-left: 20px;
 }
 
 nav {
@@ -15807,7 +15848,7 @@ nav {
 
 nav a {
   color: #fec135 !important;
-  font-size: 20px;
+  font-size: 11pt;
 }
 
 #btnDrop {
@@ -15820,4 +15861,6 @@ body {
   box-shadow: 1px 2px 13px 2px rgba(0, 0, 0, 0.75);
   background-color: #191923;
   font-family: "redhat";
+  color: white;
+  padding-left: 15px;
 }
