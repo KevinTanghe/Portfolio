@@ -1,0 +1,15 @@
+#cv{
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: $gris;
+}
+
+#photoKevin {
+    height: 180px;
+    width: 150px;
+    border-radius: 50%;
+    margin-top: 50px;
+
+}
