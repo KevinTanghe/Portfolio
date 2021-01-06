@@ -15842,6 +15842,12 @@ a.text-dark:hover, a.text-dark:focus {
   margin-left: 20px;
 }
 
+.reseauCV {
+  background-color: #25242F;
+  margin-top: 20px;
+  margin-bottom: 18px;
+}
+
 nav {
   background-color: #20202a;
 }
@@ -15863,4 +15869,17 @@ body {
   font-family: "redhat";
   color: white;
   padding-left: 15px;
+}
+
+@media screen and (min-width: 600px) and (max-width: 1023px) {
+  body {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 599px) {
+  body {
+    width: 100%;
+    padding-left: 0;
+  }
 }
