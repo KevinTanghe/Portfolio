@@ -15785,6 +15785,7 @@ a.text-dark:hover, a.text-dark:focus {
   background-color: #25242F;
   overflow: auto;
   z-index: 999;
+  height: 850px;
 }
 
 .tailleCV {
@@ -15848,13 +15849,130 @@ a.text-dark:hover, a.text-dark:focus {
   margin-bottom: 18px;
 }
 
+.imageHome {
+  background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(../../../public/img/developpeur-web.jpg);
+  background-position: bottom;
+  height: 450px;
+  background-size: cover;
+}
+
+.blocTitreHome {
+  width: 53%;
+  margin-left: 10%;
+  display: flex;
+  flex-direction: column;
+}
+
+.blocTitreHome p {
+  font-size: 50px;
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+.btnTitreHome {
+  width: 150px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline: none;
+  background-color: #fec135;
+  margin-top: 40px;
+}
+
+.btnTitreHome a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.col-lg-9 {
+  padding: 20px;
+}
+
+.chiffreHome {
+  font-size: 25px;
+  color: #fec135;
+  margin-right: 15px;
+}
+
+.textChiffreHome {
+  font-size: 15px;
+}
+
+.contentTitreHome {
+  margin-top: 50px;
+}
+
+.contentTitreHome h1 {
+  font-size: 25px;
+  margin-left: 9%;
+  margin-bottom: 20px;
+}
+
+.contentHome {
+  background-color: #25242F;
+  padding: 55px;
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.contentHome p {
+  text-align: justify;
+}
+
+.titreTestiHome {
+  padding-left: 9%;
+  font-size: 25px;
+}
+
+.testiHome {
+  background-color: #25242F;
+  padding: 20px;
+  display: flex;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+
+.testiHome p {
+  width: 80%;
+  padding-left: 15px;
+}
+
+.testiHome img {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  border: lightgrey solid 4px;
+}
+
+.noteTesti {
+  background-color: #19191f;
+  color: #fec135;
+  width: 100px;
+  padding: 5px;
+  border-radius: 30px;
+  margin-left: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.textTesti2 {
+  margin-left: 41px;
+}
+
+.noteTesti2 {
+  margin-left: 62%;
+}
+
 nav {
   background-color: #20202a;
 }
 
 nav a {
-  color: #fec135 !important;
+  color: white;
   font-size: 11pt;
+  font-weight: bold;
 }
 
 #btnDrop {
@@ -15869,10 +15987,24 @@ body {
   font-family: "redhat";
   color: white;
   padding-left: 15px;
+  padding-right: 15px;
 }
 
 @media screen and (min-width: 600px) and (max-width: 1023px) {
   body {
+    width: 100%;
+    padding: 0;
+  }
+  .col-md-7 {
+    padding: 0;
+  }
+  .blocTitreHome {
+    width: 85%;
+  }
+  .blocTitreHome p {
+    font-size: 35px;
+  }
+  .contentHome {
     width: 100%;
   }
 }
@@ -15880,6 +16012,38 @@ body {
 @media screen and (min-width: 320px) and (max-width: 599px) {
   body {
     width: 100%;
-    padding-left: 0;
+    padding: 0;
   }
+  .col-sm-12 {
+    padding: 0;
+  }
+  .blocTitreHome {
+    width: 85%;
+    display: flex;
+    align-items: center;
+  }
+  .blocTitreHome p {
+    font-size: 30px;
+    text-align: center;
+  }
+  .btnTitreHome {
+    display: flex;
+    justify-content: center;
+  }
+  .col-sm-5 {
+    width: 90%;
+  }
+  .textFooter {
+    font-size: 12px;
+  }
+}
+
+footer {
+  margin-top: 20px;
+  background-color: #25242F;
+  padding: 20px;
+}
+
+footer p {
+  margin: 0;
 }

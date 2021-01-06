@@ -1,9 +1,9 @@
 nav{
     background-color: $noir;
     a{
-        color: $jaune !important;
+        color: white;
         font-size: 11pt;
-        
+        font-weight: bold;
     }
 }
 
@@ -19,5 +19,5 @@ body{
     font-family: "redhat";
     color: white;
     padding-left: 15px;
+    padding-right: 15px;
 }
-

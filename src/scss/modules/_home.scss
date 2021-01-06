@@ -1,0 +1,114 @@
+.imageHome{
+    background: linear-gradient(
+            rgba(0, 0, 0, 0.55), 
+            rgba(0, 0, 0, 0.55)),url(../../../public/img/developpeur-web.jpg);
+    background-position: bottom;
+    height: 450px;
+    background-size: cover;
+}
+
+
+
+.blocTitreHome{
+    width: 53%;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+    p{
+        font-size: 50px;
+        font-weight: bold;
+        margin-top: 50px;
+    }
+}
+
+.btnTitreHome{  
+    width: 150px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    background-color: $jaune;
+    margin-top: 40px;
+    a{
+        text-decoration: none;
+        font-weight: bold;
+    }
+}
+
+.col-lg-9{
+    padding: 20px;
+}
+
+.chiffreHome{
+    font-size: 25px;
+    color: $jaune;
+    margin-right: 15px;
+}
+
+.textChiffreHome{
+    font-size: 15px;
+}
+
+.contentTitreHome{
+    margin-top: 50px;
+    h1{
+        font-size: 25px;
+        margin-left: 9%;
+        margin-bottom: 20px;
+    }
+}
+
+.contentHome{
+    background-color: $gris;
+    padding: 55px;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    p{
+        text-align: justify;
+    }
+}
+
+.titreTestiHome{
+    padding-left: 9%;
+    font-size: 25px;
+}
+
+.testiHome{
+    background-color: $gris;
+    padding: 20px;
+    display: flex;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    p{
+        width: 80%;
+        padding-left: 15px;
+    }
+    img{
+        height: 70px;
+        width: 70px;
+        border-radius: 50%;
+        border: lightgrey solid 4px;
+    }
+}
+
+.noteTesti{
+    background-color: #19191f;
+    color: $jaune;
+    width: 100px;
+    padding: 5px;
+    border-radius: 30px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.textTesti2{
+    margin-left: 41px;
+}
+
+.noteTesti2{
+    margin-left: 62%;
+}

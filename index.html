@@ -11,7 +11,7 @@
                         <!-- Navbar -->
 
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light">
+        <nav class="navbar navbar-expand-lg navbar-dark">
             <a class="navbar-brand border-0" href="#"></a>
             <button id="btnDrop" class="navbar-toggler bg-secondary" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon text-white"></span>
@@ -19,7 +19,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item active">
-                        <a class="nav-link mx-2 border-0" href="#">HOME<span class="sr-only">(current)</span></a>
+                        <a class="nav-link mx-2 border-0 aNav" href="#">HOME<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item active">
                         <a class="nav-link mx-2 border-0" href="#">PORTEFOLIO <span class="sr-only">(current)</span></a>
@@ -120,15 +120,84 @@
                     </div>
                 </div>
             </div>
+
+                            <!-- Reseaux scociaux -->
+
             <div class="reseauCV">
                 <a href="https://fr.linkedin.com/"><i class="text-white fab fa-linkedin-in mx-4"></i></a>
                 <a href="https://github.com/KevinTanghe"><i class="text-white fab fa-github mx-4"></i></a>
                 <a href="https://twitter.com/home"><i class="fab fa-twitter text-white mx-4"></i></a>
             </div>
         </section>
+
+                            <!-- Début de la section home -->
+
         <section class="col-lg-9 col-md-7 col-sm-12" id="home">
-            <div>
-                
+            <div class="imageHome">
+                <div class="blocTitreHome">
+                    <p>Discover my Amazing Art Space!</p>
+                    <div class="btnTitreHome">
+                        <a class="text-dark" href="">EXPLORE NOW</a>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row d-flex justify-content-center mt-4">
+                    <div class="col-lg-4 col-md-4 col-sm-12 text-center">
+                        <span class="chiffreHome">1</span>
+                        <span class="textChiffreHome">Years Experience</span>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12 text-center">
+                        <span class="chiffreHome">13</span>
+                        <span class="textChiffreHome">Completed projects</span>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12 text-center">
+                        <span class="chiffreHome">5</span>
+                        <span class="textChiffreHome">Happy Customers</span>
+                    </div>
+                </div>
+            </div>
+            <div class="contentTitreHome">
+                <h1>Qui suis-je ?</h1>
+                <div class="contentHome">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem eaque necessitatibus soluta possimus expedita nobis, laudantium similique deserunt itaque commodi, quas deleniti fuga dolores, debitis ea. Doloribus error voluptas ullam.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti, quas odio eveniet suscipit vitae excepturi fugit accusantium inventore aliquid cupiditate.</p>
+                </div>
+            </div>
+
+                        <!-- début testi -->
+            <div class="titreTestiHome">
+                <p>Recommendations</p>
+            </div>
+            <div class="container">
+                <div class="row d-flex justify-content-around">
+                    <div class="col-lg-5 col-md-11 col-sm-5 testiHome">
+                        <div>
+                            <h6>Clara</h6>
+                            <br>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, dolor labore perferendis ullam veniam illum?</p>
+                            <div class="noteTesti">
+                                <span>★★★★☆</span>
+                            </div>
+                        </div>
+                        <div>
+                            <img src="./public/img/testi-1.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-md-11 col-sm-5 testiHome">
+                        <div>
+                            <img src="./public/img/testi2.png" alt="">
+                        </div>
+                        <div>
+                            <h6 class="text-right">Julie</h6>
+                            <br>
+                            <p class="text-right textTesti2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error quisquam fugiat labore at, a praesentium?</p>
+                            <div class="noteTesti noteTesti2">
+                                <span>★★★★☆</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
         <section id="portefolio">
@@ -138,8 +207,17 @@
 
         </section>
     </section>
+    <footer>
+        <div class="d-flex justify-content-lg-between justify-content-md-between justify-content-md-center align-items-center textFooter">
+            <p class="mx-5">© 2020 All Rights Reserved.</p>
+            <div class="mx-5">
+                <span>Email: <a href="mailto:tanghekevin1@gmail.com">tanghekevin1@gmail.com</a></span>
+            </div>
+        </div>
+    </footer>
     <script src="./node_modules/jquery/dist/jquery.js"></script>
     <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="./public/js/app.js"></script>
 </body>
 </html>
