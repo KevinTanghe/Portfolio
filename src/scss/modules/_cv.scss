@@ -6,7 +6,7 @@
     background-color: $gris;
     overflow: auto;
     z-index: 999;
-    height: 850px
+    height: 852px
 }
 
 .tailleCV{
@@ -21,9 +21,10 @@
 }
 
 #photoKevin {
-    height: 120px;
+    height: 130px;
     width: 100px;
-    border-radius: 50%;
+    // border-radius: 50%;
+    border: solid $jaune 4px;
     margin-top: 50px;
 }
 

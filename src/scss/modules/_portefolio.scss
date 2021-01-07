@@ -1,0 +1,26 @@
+// #portefolio{
+//     display: none;
+// }
+
+.imgFolio{
+    height: 250px;
+    width: 150px;
+}
+
+.fondFolio1{
+    background-color: $gris;
+    margin: 20px;
+    padding: 20px;
+}
+
+.modal-header{
+    justify-content: center;
+    color: black;
+}
+
+.h5Folio{
+    display: flex;
+    justify-content: center;
+    background-color: $gris;
+    margin-bottom: 20px;
+}
