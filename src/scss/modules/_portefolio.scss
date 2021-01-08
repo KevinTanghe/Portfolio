@@ -1,6 +1,6 @@
-// #portefolio{
-//     display: none;
-// }
+#portefolio{
+    display: none;
+}
 
 .imgFolio{
     height: 250px;
@@ -21,6 +21,10 @@
 .h5Folio{
     display: flex;
     justify-content: center;
-    background-color: $gris;
+    background-color: rgb(61, 65, 78);
     margin-bottom: 20px;
+}
+
+.test{
+    color: #f7d482;
 }

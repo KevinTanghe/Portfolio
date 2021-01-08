@@ -1,0 +1,51 @@
+#contact{
+    display: none;
+    h5{
+        margin-left: 70px;
+        
+    }
+};
+
+.blocContact{
+    background-color: $gris;
+    padding: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.formulaire{
+    width: 87%;
+    margin: 0 auto;
+    background-color: $gris;
+    padding: 40px;
+}
+
+.fondForm{
+    background-color: #242531;
+    border: none;
+    outline: 0 none;
+    width: 100%;
+    color: white;
+    padding-left: 20px;
+}
+
+textarea{
+    resize: none;
+}
+
+.btnContact{
+    width: 150px;
+    height: 50px;
+    background-color: $jaune;
+    font-size: 13px;
+    font-weight: bold;
+    border: none;
+}
+
+.btnContact:focus{
+    outline: 0 none;
+
+}

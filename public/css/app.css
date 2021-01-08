@@ -15778,11 +15778,62 @@ a.text-dark:hover, a.text-dark:focus {
   }
 }
 
+#contact {
+  display: none;
+}
+
+#contact h5 {
+  margin-left: 70px;
+}
+
+.blocContact {
+  background-color: #282831;
+  padding: 20px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin: 10px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.formulaire {
+  width: 87%;
+  margin: 0 auto;
+  background-color: #282831;
+  padding: 40px;
+}
+
+.fondForm {
+  background-color: #242531;
+  border: none;
+  outline: 0 none;
+  width: 100%;
+  color: white;
+  padding-left: 20px;
+}
+
+textarea {
+  resize: none;
+}
+
+.btnContact {
+  width: 150px;
+  height: 50px;
+  background-color: #fec135;
+  font-size: 13px;
+  font-weight: bold;
+  border: none;
+}
+
+.btnContact:focus {
+  outline: 0 none;
+}
+
 #cv {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #25242F;
+  background-color: #282831;
   overflow: auto;
   z-index: 999;
   height: 852px;
@@ -15844,9 +15895,13 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .reseauCV {
-  background-color: #25242F;
+  background-color: #282831;
   margin-top: 20px;
   margin-bottom: 18px;
+}
+
+.reseauCV a {
+  color: white;
 }
 
 .imageHome {
@@ -15875,7 +15930,7 @@ a.text-dark:hover, a.text-dark:focus {
   display: flex;
   justify-content: center;
   align-items: center;
-  outline: none;
+  outline: 0 none;
   background-color: #fec135;
   margin-top: 40px;
 }
@@ -15910,7 +15965,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .contentHome {
-  background-color: #25242F;
+  background-color: #282831;
   padding: 55px;
   width: 90%;
   margin: 0 auto;
@@ -15927,7 +15982,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .testiHome {
-  background-color: #25242F;
+  background-color: #282831;
   padding: 20px;
   display: flex;
   margin-bottom: 20px;
@@ -15973,10 +16028,6 @@ a.text-dark:hover, a.text-dark:focus {
   opacity: 1;
 }
 
-#home {
-  display: none;
-}
-
 nav {
   background-color: #20202a;
 }
@@ -15988,7 +16039,7 @@ nav a {
 }
 
 #btnDrop {
-  background-color: #25242F;
+  background-color: #282831;
 }
 
 body {
@@ -16002,13 +16053,17 @@ body {
   padding-right: 15px;
 }
 
+#portefolio {
+  display: none;
+}
+
 .imgFolio {
   height: 250px;
   width: 150px;
 }
 
 .fondFolio1 {
-  background-color: #25242F;
+  background-color: #282831;
   margin: 20px;
   padding: 20px;
 }
@@ -16021,8 +16076,12 @@ body {
 .h5Folio {
   display: flex;
   justify-content: center;
-  background-color: #25242F;
+  background-color: #3d414e;
   margin-bottom: 20px;
+}
+
+.test {
+  color: #f7d482;
 }
 
 @media screen and (min-width: 600px) and (max-width: 1023px) {
@@ -16075,7 +16134,7 @@ body {
 
 footer {
   margin-top: 20px;
-  background-color: #25242F;
+  background-color: #282831;
   padding: 20px;
 }
 

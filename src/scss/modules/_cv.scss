@@ -23,7 +23,6 @@
 #photoKevin {
     height: 130px;
     width: 100px;
-    // border-radius: 50%;
     border: solid $jaune 4px;
     margin-top: 50px;
 }
@@ -70,4 +69,7 @@
     background-color: $gris;
     margin-top: 20px;
     margin-bottom: 18px;
+    a{
+        color: white;
+    }
 }
