@@ -163,8 +163,51 @@ lienReseau[2].addEventListener("mouseleave", function(){
     lienReseau[2].style.transition = "1s"
 })
 
-let body = document.body.querySelector("body").onload = function(){
-    body.style.opacity = "0"
-}
+
+let home = document.getElementById("home")
+let chiffreHome = home.querySelectorAll("span")
+let infoCV = document.getElementsByClassName("bouleVide")
+console.log(infoCV);
+console.log(chiffreHome);
+// span 1 3 5
 
 
+
+window.addEventListener("load", function(){
+    document.body.style.opacity = "1"
+    document.body.style.transition = "opacity 2s"
+
+    setTimeout(() => {
+        chiffreHome[3].innerHTML = "2"
+        chiffreHome[5].innerHTML = "1"
+    }, 500);
+
+    setTimeout(() => {
+       chiffreHome[3].innerHTML = "5"
+    }, 600);
+    setTimeout(() => {
+        chiffreHome[3].innerHTML = "6"
+        chiffreHome[5].innerHTML = "2"
+    }, 700);
+
+    setTimeout(() => {
+       chiffreHome[3].innerHTML = "7"
+    }, 800);
+    setTimeout(() => {
+        chiffreHome[3].innerHTML = "8"
+        chiffreHome[5].innerHTML = "3"
+    }, 900);
+
+    setTimeout(() => {
+       chiffreHome[3].innerHTML = "9"
+    }, 1000);
+    setTimeout(() => {
+        chiffreHome[3].innerHTML = "11"
+        chiffreHome[5].innerHTML = "4"
+    }, 1100);
+
+    setTimeout(() => {
+       chiffreHome[3].innerHTML = "13"
+       chiffreHome[5].innerHTML = "5"
+    }, 1200);
+})
